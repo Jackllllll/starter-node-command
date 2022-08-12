@@ -19,7 +19,11 @@ pnpm dev
 ```bash
 pnpm build
 ```
+### 单测
 
+```bash
+pnpm test
+```
 ### 运行
 
 ```bash
