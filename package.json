@@ -1,8 +1,9 @@
 {
-    "name": "node-command",
+    "name": "starter-node-command",
     "version": "1.0.0",
     "description": "this is a node-command template",
     "source": "src/index.js",
+    "bin":"./bin/index.js",
     "exports": {
         "require": "./dist/index.cjs",
         "default": "./dist/index.modern.js"
