@@ -1,0 +1,35 @@
+{
+    "name": "node-command",
+    "version": "1.0.0",
+    "description": "this is a node-command template",
+    "source": "src/index.js",
+    "exports": {
+        "require": "./dist/index.cjs",
+        "default": "./dist/index.modern.js"
+    },
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.module.js",
+    "unpkg": "./dist/index.umd.js",
+    "scripts": {
+        "test": "jest",
+        "dev": "tsc --watch",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jackllllll/node-command.git"
+    },
+    "keywords": [
+        "template",
+        "command"
+    ],
+    "author": "linzb",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jackllllll/node-command/issues"
+    },
+    "homepage": "https://github.com/Jackllllll/node-command#readme",
+    "devDependencies": {
+        "jest": "^28.1.3"
+    }
+}
