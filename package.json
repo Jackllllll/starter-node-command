@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "this is a node-command template",
     "source": "src/index.js",
-    "bin":"./bin/index.js",
+    "bin": "./bin/index.js",
+    "type": "module",
     "exports": {
         "require": "./dist/index.cjs",
         "default": "./dist/index.modern.js"
